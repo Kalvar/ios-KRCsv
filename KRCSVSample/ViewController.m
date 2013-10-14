@@ -1,10 +1,20 @@
-## Supports
+//
+//  ViewController.m
+//  KRCSVSample
+//
+//  Created by Kalvar on 13/10/14.
+//  Copyright (c) 2013年 Kalvar. All rights reserved.
+//
 
-Easy making a CSV file, and it will save in Document of App.
+#import "ViewController.h"
+#import "KRCsv.h"
 
-## How To Get Started
+@interface ViewController ()
 
-``` objective-c
+@end
+
+@implementation ViewController
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -22,12 +32,11 @@ Easy making a CSV file, and it will save in Document of App.
         NSLog(@"saved filePath : %@", filePath);
     }];
 }
-```
 
-## Version
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    
+}
 
-V0.2 Beta.
-
-## License
-
-KRCsv is available under the MIT license ( or Whatever you wanna do ). See the LICENSE file for more info.
+@end
